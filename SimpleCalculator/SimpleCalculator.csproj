@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleCalculatorLibrary\SimpleCalculatorLibrary.csproj" />
+    <ProjectReference Include="..\StringUtilsLibrary\StringUtilsLibrary.csproj" />
+  </ItemGroup>
+
 </Project>
